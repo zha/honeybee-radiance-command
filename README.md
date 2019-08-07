@@ -33,7 +33,6 @@ git clone https://github.com/ladybug-tools/honeybee-radiance-command
 ```console
 cd honeybee-radiance-command
 pip install -r dev-requirements.txt
-pip install -r requirements.txt
 ```
 
 3. Run Tests:

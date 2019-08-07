@@ -5,8 +5,6 @@ import sys
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
 
 setuptools.setup(
     name="honeybee-radiance-command",
@@ -19,7 +17,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ladybug-tools/honeybee-radiance-command",
     packages=setuptools.find_packages(exclude=["tests"]),
-    install_requires=requirements,
+    install_requires=[],
     classifiers=[
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.6",

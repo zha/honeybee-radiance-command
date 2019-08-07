@@ -1,2 +1,1 @@
-"""honeybee-radiance-command library."""
-
+"""Radiance commands."""
